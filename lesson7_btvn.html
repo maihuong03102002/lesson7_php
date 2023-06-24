@@ -14,44 +14,44 @@
   <style>
     * {
     box-sizing: inherit;
-}
-
-body {
+    }
+    
+    body {
     padding: 0;
     margin: 0;
-}
-
-html {
+    }
+    
+    html {
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
     background-color: #f1f1f1;
-}
-
-.main-menu-item{
+    }
+    
+    .main-menu-item{
     list-style: none;
-}
-
-.main-menu-item a{
+    }
+    
+    .main-menu-item a{
     text-decoration: none;
     color: rgba(35, 31, 31, 0.502);
     text-transform: capitalize;
-}
-
-.btn {
+    }
+    
+    .btn {
     color: rgba(35, 31, 31, 0.502);
     border-radius: 5px;
     border: none;
     padding: 10px;
     width: 100px;
     height: 40px;
-}
-
-.btn-warning{
+    }
+    
+    .btn-warning{
     background: rgba(156, 96, 18, 0.8);
     color: #fff;
-}
-
-.banner-description-title{
+    }
+    
+    .banner-description-title{
     font-weight: bold;
     width: 80%;
     margin: 0 0 2rem 0;
@@ -59,57 +59,57 @@ html {
     font-size: 6rem;
     word-spacing: .5rem;
     line-height: 9rem;
-}
-.banner-description-break img{
-   width: 70%;
-}
-.banner-description-content{
+    }
+    .banner-description-break img{
+    width: 70%;
+    }
+    .banner-description-content{
     font-weight: 600;
     font-size: 1.3rem;
     width: 60%;
     line-height: 2.5rem;
-}
-
-.banner-description-btn {
+    }
+    
+    .banner-description-btn {
     display: flex;
-}
-
-.banner-description-btn button {
+    }
+    
+    .banner-description-btn button {
     width: 12rem;
     font-weight: 600;
     border: none;
     border-radius: 2.5rem;
     cursor: pointer;
-}
-
-.banner-description-btn .btn__free-trial {
+    }
+    
+    .banner-description-btn .btn__free-trial {
     background-color: rgba(18, 134, 95, 0.8);
     padding: 1.5rem 0;
     color: #fff;
-}
-
-.banner-description-btn .btn__free-trial:hover {
+    }
+    
+    .banner-description-btn .btn__free-trial:hover {
     background-color: rgba(18, 134, 95, 0.5);
-}
-
-.banner-description-btn .btn__view-demo {
+    }
+    
+    .banner-description-btn .btn__view-demo {
     margin: 0 5rem 0;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.banner-description-btn .btn__view-demo:hover {
+    }
+    
+    .banner-description-btn .btn__view-demo:hover {
     background-color: rgba(18, 134, 95, 0.8);
     color: #fff;
-}
-
-.banner-description-btn .btn__view-demo .fa-circle-play {
+    }
+    
+    .banner-description-btn .btn__view-demo .fa-circle-play {
     font-size: 3rem;
-}
-
-.banner-image-wrap .total-income {
+    }
+    
+    .banner-image-wrap .total-income {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -121,26 +121,26 @@ html {
     left: 3rem;
     border-radius: 1rem;
     z-index: 999;
-}
-
-.banner-image-wrap .total-income div p:first-child{
+    }
+    
+    .banner-image-wrap .total-income div p:first-child{
     font-size: 1.3rem;
     margin: 0;
-}
-
-.banner-image-wrap .total-income div p:last-child{
+    }
+    
+    .banner-image-wrap .total-income div p:last-child{
     font-size: 1.3rem;
     font-weight: 600;
     margin: 1rem 0 0 0;
-}
-
-.fa-chart-simple {
+    }
+    
+    .fa-chart-simple {
     font-size: 2rem;
     color: rgb(18, 156, 110);
     
-}
-
-.banner-image-wrap form {
+    }
+    
+    .banner-image-wrap form {
     position: absolute;
     background-color: #fff;
     width: 26rem;
@@ -148,194 +148,325 @@ html {
     margin-top: 4rem;
     border-radius: 1rem;
     z-index: 1000;
-}
-
-.fa-square-check {
+    }
+    
+    .fa-square-check {
     position: absolute;
     top: 25rem;
     left: 6.5rem;
     font-size: 3rem;
     color: #4838B5;
     transform: rotate(-20deg);
-}
-
-.banner-image-wrap form .form-group input {
+    }
+    
+    .banner-image-wrap form .form-group input {
     height: 2.5rem;
     width: 16rem;
     font-size: 1.5rem;
     font-weight: 600;
-}
-
-.banner-image-wrap form .form-group p {
+    }
+    
+    .banner-image-wrap form .form-group p {
     margin-top: 0;
     font-size: 1.25rem;
-}
-
-
-.banner-image-wrap form .form-group input:focus {
+    }
+    
+    
+    .banner-image-wrap form .form-group input:focus {
     outline: none;
-}
-
-.banner-image-wrap form .form-group button {
+    }
+    
+    .banner-image-wrap form .form-group button {
     position: absolute;
     bottom: 2rem;
     background-color: rgb(18, 156, 110);
     color: #fff;
     font-weight: 500;
-}
-
-.banner-image-wrap form .form-group button:hover {
+    }
+    
+    .banner-image-wrap form .form-group button:hover {
     background-color: rgba(16, 134, 95, 0.8);
     cursor: pointer;
-}
-
-.btn-round{
+    }
+    
+    .btn-round{
     border-radius: 50px;
-}
-
-.text-grey{
+    }
+    
+    .text-grey{
     color: #aaa;
-}
-
-.form-control-input{
+    }
+    
+    .form-control-input{
     border: none;
     border-bottom: 1px solid #aaa;
-}
-.btn-sm{
+    }
+    .btn-sm{
     padding: 5px;
     width: 80px;
     height: 25px;
     font-size: 14px;
-}
-
-.header-top {
+    }
+    
+    .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-top .logo {
+    }
+    
+    .header-top .logo {
     margin-left: 10rem;
     margin-top: 2rem;
     font-size: 4rem;
     font-weight: 500;
     color: rgb(18, 156, 110);
-}
-
-.header-top .logo p {
+    }
+    
+    .header-top .logo p {
     margin: 0;
-}
-
-.none-text_decoration {
+    }
+    
+    .none-text_decoration {
     text-decoration: none;
-}
-
-.header-top .navigation-bar {
+    }
+    
+    .header-top .navigation-bar {
     display: flex;
     align-items: center;
     margin-right: 10rem;
-}
-
-.header-top .navigation-bar a {
+    }
+    
+    .header-top .navigation-bar a {
     font-size: 1.6rem;
     color: rgba(35, 31, 31, 0.502);
-}
-
-.header-top .navigation-bar a:active {
+    }
+    
+    .header-top .navigation-bar a:active {
     color: rgb(4, 20, 34);
-}
-
-.header-top .navigation-bar .main-menu ul {
+    }
+    
+    .header-top .navigation-bar .main-menu ul {
     display: flex;
     justify-content: space-between;
     padding: 0;
-}
-
-.header-top .navigation-bar .main-menu ul li {
+    }
+    
+    .header-top .navigation-bar .main-menu ul li {
     margin:0 1.7rem ;
     font-weight: 500;
-}
-
-.header-top .navigation-bar .main-menu ul li:last-child {
+    }
+    
+    .header-top .navigation-bar .main-menu ul li:last-child {
     margin-right: 12rem ;
-}
-
-.header-top .navigation-bar .main-menu ul li a:hover {
+    }
+    
+    .header-top .navigation-bar .main-menu ul li a:hover {
     color: rgba(18, 156, 110, 0.8);
-}
-
-.header-top .navigation-bar .header-button-group a {
+    }
+    
+    .header-top .navigation-bar .header-button-group a {
     margin: 0 1rem;
     padding: 1rem 1.5rem;
     border-radius: 1.2rem;
     font-weight: 500;
-}
-
-.header-top .navigation-bar .header-button-group a:first-child:hover {
+    }
+    
+    .header-top .navigation-bar .header-button-group a:first-child:hover {
     color: rgba(18, 156, 110, 0.8);
-}
-
-.header-top .navigation-bar .header-button-group a:last-child {
+    }
+    
+    .header-top .navigation-bar .header-button-group a:last-child {
     background-color: rgba(18, 156, 110, 0.8);
     color: #f3f3f3;
     padding: 1rem 1.5rem;
     border-radius: 1.2rem;
-}
-
-.header-top .navigation-bar .header-button-group a:last-child:hover {
+    }
+    
+    .header-top .navigation-bar .header-button-group a:last-child:hover {
     background-color: rgba(16, 134, 95, 0.8);
-}
-
-.header-bottom {
+    }
+    
+    .header-bottom {
     display: flex;
     margin: 10rem 10rem;
     justify-content: space-between;
-}
-
-.header-bottom .banner-image-wrap {
+    }
+    
+    .header-bottom .banner-image-wrap {
     position: relative;
     width: 150rem;
     height: 50rem;
-}
-
-.header-bottom .banner-image-wrap img:first-child {
+    }
+    
+    .header-bottom .banner-image-wrap img:first-child {
     width: 60rem;
     background-color: rgba(18, 156, 110, 1);
     border-radius: 2rem;
     position: absolute;
     right: 0;
-}
-
-.header-bottom .banner-image-wrap img:nth-child(2) {
+    }
+    
+    .header-bottom .banner-image-wrap img:nth-child(2) {
     position: absolute;
     z-index: 9999;
     width: 15rem;
     right: 0;
     bottom: 2rem;
     transform: rotate(20deg);
-}
-
-.bottom__content {
+    }
+    
+    .bottom__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 12rem;
-}
-
-.bottom__content .bottom__content-text {
+    }
+    
+    .bottom__content .bottom__content-text {
     font-size: 3rem;
     font-weight: 600;
-}
-
-.bottom__content .bottom__content-list {
+    }
+    
+    .bottom__content .bottom__content-list {
     display: flex;
     justify-content: space-around;
     width: 70%;
     font-size: 2rem;
-}
-
+    }
+    .how{
+    display: inline-block;
+    }
+    .rating{
+    display: inline-block;
+    }
+    .rating ul li{
+    display: flex;
+    display: inline-block;
+    }
+    .rating img{
+    width: 20px;
+    height: 20px;
+    }
+    .how h3{
+    font-size: 35px;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    }
+    #how-text2{
+    width: 800px;
+    height: auto;
+    margin-left: 30px;
+    }
+    .rating p {
+    margin-left: 45px;
+    }
+    .pub ul{
+    list-style: none;
+    }
+    .pub ul li{
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    }
+    .pub ul li p{
+    font-size: 20px;
+    }
+    .pub img{
+    width: 30px;
+    height: 30px;
+    }
+    #pub-text{
+    width: 600px;
+    }
+    
+    .ana ul{
+    list-style: none;
+    }
+    .ana ul li{
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    }
+    .ana ul li p{
+    font-size: 20px;
+    }
+    .ana img{
+    width: 30px;
+    height: 30px;
+    }
+    #ana-text{
+    width: 600px;
+    }
+    
+    .eng ul{
+    list-style: none;
+    }
+    .eng ul li{
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    }
+    .eng ul li p{
+    font-size: 20px;
+    }
+    .eng img{
+    width: 30px;
+    height: 30px;
+    }
+    #eng-text{
+    width: 600px;
+    }
+    
+    .feature {
+    margin: 30px auto;
+    width: 960px;
+    }
+    .feature .inner {
+    border-bottom: 1px solid #e7e9eb;
+    padding: 84px 0 134px;
+    }
+    .feature .inner:last-child {
+    border-bottom: none;
+    }
+    .feature .box-l {
+    float: left;
+    }
+    .feature .box-r {
+    float: right;
+    }
+    .feature .detail {
+    width: 470px;
+    }
+    .feature .detail h5 {
+    color: #21262a;
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 17px;
+    }
+    .feature .detail .text-info {
+    margin-bottom: 30px;
+    }
+    .feature .detail .more a {
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    height: 41px;
+    line-height: 41px;
+    opacity: 1;
+    padding: 0 23px;
+    text-decoration: none;
+    transition: 0.3s opacity;
+    }
+    .feature .detail .more a.green {
+    background-color: #1d8d19;
+    }
+    
   </style>
+
   <body>
     <!-- header -->
     <header id="header">
@@ -438,62 +569,109 @@ html {
         </div>
       </div>
     </header>
+    <div class="main2">
+      <div class="how">
+        <h3>How we support our pratner all over the world</h3>
+        <p id="how-text2">SaaS become a commom delivery model for many business application, including ofice software, mesaging software, payroll processing software, DBMS software mangament software</p>
+        <div class="rating">
+          <ul>
+            <li> 
+              <img src="star.png" alt="">
+            </li>
+            <li>
+              <img src="star.png" alt="">
+            </li>
+            <li>
+              <img src="star.png" alt="">
+            </li>
+            <li>
+              <img src="star.png" alt="">
+            </li>
+            <li>
+              <img src="star.png" alt="">
+            </li>
+          </ul>
+          <p>4.9/5 rating</p>
+          <p> databricks</p>
+        </div>
     
+        <div class="rating">
+          <ul>
+            <li> 
+              <img src="star.png" alt="">
+            </li>
+            <li>
+              <img src="star.png" alt="">
+            </li>
+            <li> 
+              <img src="star.png" alt="">
+            </li>
+            <li>
+              <img src="star.png" alt="">
+            </li>
+          </ul>
+          <p>4.8/5 rating</p>
+          <p> databricks</p>
+        </div>
+      </div>
     
+      <div class="how" >
+          <div class="pub">
+            <ul>
+              <li>
+                <img src="analyst.png" alt="">
+              </li>
+              <li>
+                <p>Publishing</p>
+              </li>
+            </ul>
+            <p id="pub-text">Plan, collaborate, and, publishing your 
+              content that drivees meaning engagement and growth for your banrd</p>
+          </div>
     
-            <div>
-              <div>
-                <h1>How we support our pratner all over the world</h1>
-                <p>SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software </p>
-     
-                <div>
-                  <!-- rating -->
-                  <div>
-                    <img src="./images/star.png" alt="star icon" />
-                    <p>4.9/5 rating</p>
-                    <p>Databricks</p>
-                  </div>
-                  <div>
-                    <img src="./images/star.png" alt="star icon" />
-                    <p>4.8/5 rating</p>
-                    <p>Chainalysis</p>
-                  </div>
-    
-              <div>
-                <img src="" alt="Icon" />
-                <h2>Pushlishing</h2>
-                <p>Plan, collaborate, and publishing your content that drivees meaningful and growth for your barnd</p>
-              </div>
-
-              <div>
-                <img src="" alt="Icon" />
-                <h2>Analytics</h2>
-                <p>Analyze your performance and create report</p>
-              </div>
-              <div>
-                <img src="" alt="Icon" />
-                <h2>Engagement</h2>
-                <p>Quickly navigate you and  engage with your adience</p>
-              </div>
+      <!---->
+      <div class="ana">
+        <ul>
+          <li>
+            <img src="analyst.png" alt="">
+          </li>
+          <li>
+            <p>Analytics</p>
+          </li>
+        </ul>
+        <p id="ana-text">Analyze your performance and create goegeous report</p>
+      </div>
+    <!---->
+    <div class="eng">
+      <ul>
+        <li>
+          <img src="analyst.png" alt="">
+        </li>
+        <li>
+          <p>Engagement</p>
+        </li>
+      </ul>
+      <p id="eng-text">Quiuckly navigate you anda engage with your adience</p>
+    </div>
+    <!---->
+    </div>
+    </div>
                   
      
     
           <!-- Part 2 -->
-          <section>
-          <section id="feature">
-            <div>
-              <div>
-           <h1>Our Features you cab get</h1>
-                <p>We offer a variety of interesting features that you can help increase yor productivity at work and manage your projec esaly </p>
-              </div>
-              <div>
-                <button>Get Started</button>
-                <button class="btn btn-info btn-round">Get Started</button>
-              </div>
+        
+          <section class="feature">
+            <div class="inner clearfix">
+              <div class="box-l detail">
+           <h5>Our Features you cab get</h5>
+                <p class="text-info">We offer a variety of interesting features that you can help increase yor productivity at work and manage your projec esaly </p>
+                <p class="more"><a href="./" class="green">Get Started</a></p>
+              
             </div>
            
-                <div>
-                  <img src="./images/mac.png" alt="Logo" />
+                <div class="box-r photo">
+                  <img src="./images/mac.png" alt="Logo" ></div>
                 </div>
                 <h2>Colloboration Teams</h2>
                 <p>Here you can handle projects together with team virtually</p>
